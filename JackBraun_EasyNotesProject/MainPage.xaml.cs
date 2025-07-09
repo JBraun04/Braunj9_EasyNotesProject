@@ -8,6 +8,9 @@
         {
             InitializeComponent();
         }
+        private async void Btn1EditClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new NoteEntry());
+        }
     }
-
 }

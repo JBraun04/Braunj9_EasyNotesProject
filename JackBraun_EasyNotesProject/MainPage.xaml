@@ -30,7 +30,9 @@
         <Button BackgroundColor="#f5f4cb"
             ImageSource="createnew.png"
             Grid.Row="1"
-            Grid.Column="3"/>
+            Grid.Column="3"
+            x:Name="Btn1Edit"
+            Clicked="Btn1EditClicked"/>
 
         <Button BackgroundColor="#f5f4cb"
             Text="[Untitled Note]"
