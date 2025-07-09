@@ -20,50 +20,50 @@
             Grid.ColumnSpan="4"
             HorizontalOptions="Center"/>
 
-        <Button BackgroundColor="#a8a37b"
+        <Button BackgroundColor="#f5f4cb"
             Text="[Untitled Note]"
             Grid.Row="1"
             Grid.Column="0"
             Grid.ColumnSpan="3"
             TextColor="Black"/>
 
-        <Button BackgroundColor="#a8a37b"
+        <Button BackgroundColor="#f5f4cb"
             ImageSource="createnew.png"
             Grid.Row="1"
             Grid.Column="3"/>
 
-        <Button BackgroundColor="#a8a37b"
+        <Button BackgroundColor="#f5f4cb"
             Text="[Untitled Note]"
             Grid.Row="2"
             Grid.Column="0"
             Grid.ColumnSpan="3"
             TextColor="Black"/>
 
-        <Button BackgroundColor="#a8a37b"
+        <Button BackgroundColor="#f5f4cb"
             ImageSource="createnew.png"
             Grid.Row="2"
             Grid.Column="3"/>
 
-        <Button BackgroundColor="#a8a37b"
+        <Button BackgroundColor="#f5f4cb"
             Text="[Untitled Note]"
             Grid.Row="3"
             Grid.Column="0"
             Grid.ColumnSpan="3"
             TextColor="Black"/>
 
-        <Button BackgroundColor="#a8a37b"
+        <Button BackgroundColor="#f5f4cb"
             ImageSource="createnew.png"
             Grid.Row="3"
             Grid.Column="3"/>
 
-        <Button BackgroundColor="#a8a37b"
+        <Button BackgroundColor="#f5f4cb"
             Text="[Untitled Note]"
             Grid.Row="4"
             Grid.Column="0"
             Grid.ColumnSpan="3"
             TextColor="Black"/>
 
-        <Button BackgroundColor="#a8a37b"
+        <Button BackgroundColor="#f5f4cb"
             ImageSource="createnew.png"
             Grid.Row="4"
             Grid.Column="3"/>
