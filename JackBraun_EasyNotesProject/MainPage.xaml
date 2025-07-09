@@ -71,7 +71,7 @@
             Grid.Column="3"/>
 
         <Button BackgroundColor="#47adba"
-            Text="About the app"
+            Text="About"
             TextColor="Black"
             FontSize="12"
             Grid.Row="5"

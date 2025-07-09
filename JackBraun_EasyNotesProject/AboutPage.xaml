@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JackBraun_EasyNotesProject.AboutPage"
+             Title="About EasyNotes">
+
+    <ScrollView>
+        <StackLayout Padding="20" BackgroundColor="#032936" Spacing="20">
+
+            <Label Text="About EasyNotes"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="EasyNotes is a lightweight, user-friendly note-taking app built using"
+                   FontSize="16"
+                   TextColor="White"
+                   LineBreakMode="WordWrap"/>
+
+            <Label Text="Key Features:To edit a note click on the name of the note selected. Click save note to save the data entered. Press the delete button to to erase the note." 
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="White"/>
+
+            <Label Text="• Create and edit notes seamlessly"
+                   FontSize="16"
+                   TextColor="White"
+                   LineBreakMode="WordWrap"/>
+
+        </StackLayout>
+    </ScrollView>   
+</ContentPage>
