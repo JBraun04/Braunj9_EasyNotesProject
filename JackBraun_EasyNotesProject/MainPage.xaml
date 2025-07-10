@@ -79,7 +79,8 @@
             Grid.ColumnSpan="2"
             HeightRequest="40"
             WidthRequest="150"
-            CornerRadius="60"/>
+            CornerRadius="60"
+            Clicked="AboutButtonClicked"/>
     </Grid>
 </ContentPage>
 
