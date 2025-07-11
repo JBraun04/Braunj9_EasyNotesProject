@@ -25,14 +25,14 @@
             Grid.Row="1"
             Grid.Column="0"
             Grid.ColumnSpan="3"
-            TextColor="Black"/>
-
-        <Button BackgroundColor="#f5f4cb"
-            ImageSource="createnew.png"
-            Grid.Row="1"
-            Grid.Column="3"
+            TextColor="Black"
             x:Name="Btn1Edit"
             Clicked="Btn1EditClicked"/>
+
+        <Button BackgroundColor="#f5f4cb"
+            ImageSource="trash.png"
+            Grid.Row="1"
+            Grid.Column="3"/>
 
         <Button BackgroundColor="#f5f4cb"
             Text="[Untitled Note]"
@@ -42,7 +42,7 @@
             TextColor="Black"/>
 
         <Button BackgroundColor="#f5f4cb"
-            ImageSource="createnew.png"
+            ImageSource="trash.png"
             Grid.Row="2"
             Grid.Column="3"/>
 
@@ -54,7 +54,7 @@
             TextColor="Black"/>
 
         <Button BackgroundColor="#f5f4cb"
-            ImageSource="createnew.png"
+            ImageSource="trash.png"
             Grid.Row="3"
             Grid.Column="3"/>
 
@@ -66,7 +66,7 @@
             TextColor="Black"/>
 
         <Button BackgroundColor="#f5f4cb"
-            ImageSource="createnew.png"
+            ImageSource="trash.png"
             Grid.Row="4"
             Grid.Column="3"/>
 
