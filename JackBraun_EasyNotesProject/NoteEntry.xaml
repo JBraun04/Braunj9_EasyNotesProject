@@ -19,11 +19,13 @@
         HorizontalOptions="Center"/>
 
         <Entry BackgroundColor="#f5f4cb"
+        x:Name="noteName"
         Text="[Enter Note Title]"
         HeightRequest="50"
         Grid.Row="1"/>
 
         <Entry BackgroundColor="#f5f4cb"
+        x:Name="noteContent"
         Text="[Enter Note Text]"
         HeightRequest="50"
         Grid.Row="2"/>
@@ -40,6 +42,7 @@
         Grid.Row="4"
         HeightRequest="40"
         WidthRequest="150"
-        CornerRadius="60"/>
+        CornerRadius="60"
+        Clicked="saveButton_Clicked"/>
     </Grid>
 </ContentPage>
