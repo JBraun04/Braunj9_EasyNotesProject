@@ -20,34 +20,53 @@
             Grid.ColumnSpan="4"
             HorizontalOptions="Center"/>
 
-        <ListView x:Name="Lv" 
-        FlexLayout.Grow="1" 
-        HasUnevenRows="True" 
-        BackgroundColor="#f5f4cb" 
-        Grid.Row="2" 
-        HeightRequest="300" 
-        ItemTapped="Lv_ItemTapped">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <VerticalStackLayout Padding="5">
-                            <Label Text="{Binding NoteTitle}"
-                  FontSize="20"
-                  FontAttributes="Bold"/>
-                            <Grid ColumnDefinitions="Auto,*,Auto">
-                                <Label Grid.Column="0" Text="{Binding NoteContent}"/>
-                            </Grid>
-                        </VerticalStackLayout>
+        <Button BackgroundColor="#f5f4cb"
+            Text="[Untitled Note]"
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            TextColor="Black"/>
 
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <Button BackgroundColor="#f5f4cb"
+            ImageSource="createnew.png"
+            Grid.Row="1"
+            Grid.Column="3"
+            x:Name="Btn1Edit"
+            Clicked="Btn1EditClicked"/>
 
-        <Button BackgroundColor="#47adba"
-            Text="New"
-            TextColor="Black"
-            FontSize="12"
+        <Button BackgroundColor="#f5f4cb"
+            Text="[Untitled Note]"
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            TextColor="Black"/>
+
+        <Button BackgroundColor="#f5f4cb"
+            ImageSource="createnew.png"
+            Grid.Row="2"
+            Grid.Column="3"/>
+
+        <Button BackgroundColor="#f5f4cb"
+            Text="[Untitled Note]"
+            Grid.Row="3"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            TextColor="Black"/>
+
+        <Button BackgroundColor="#f5f4cb"
+            ImageSource="createnew.png"
+            Grid.Row="3"
+            Grid.Column="3"/>
+
+        <Button BackgroundColor="#f5f4cb"
+            Text="[Untitled Note]"
+            Grid.Row="4"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            TextColor="Black"/>
+
+        <Button BackgroundColor="#f5f4cb"
+            ImageSource="createnew.png"
             Grid.Row="4"
             Grid.Column="1"
             Grid.ColumnSpan="2"
